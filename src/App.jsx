@@ -90,9 +90,8 @@ function App() {
         !valueSi ? (
           <div className="p-5">
             <h1 className="text-black font-bold text-3xl md:text-3xl lg:text-3xl text-center leading-tight max-w-5xl mx-auto">¿Feliz Dia de san valentin Quiere
-      esperarme cuando llegue y salir a pasear y 
-      salir a comer pasarla bien y conocernos mejor
-      y quien sabe tener algo?</h1>
+      feliz dia de san valentin TIA QUERIDA
+      </h1>
             <img src={Object.keys(randomValor).length === 0 ?
               "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif" : randomValor.img} alt="San Valentin" className="mx-auto" width={250} height={300} />
             <div className="flex justify-center gap-8 mt-9">
@@ -121,7 +120,7 @@ function App() {
           </div>
         ) : (
           <div className="flex justify-center items-center flex-col space-y-10">
-            <h1 className="text-4xl text-black font-bold">Sabia que dirias que si ❤️!</h1>
+            <h1 className="text-4xl text-black font-bold">feliz dias de san valentin ❤️!</h1>
             <img src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif" alt="" className="mx-auto" />
             <span hidden>{document.title = 'Sabia que dirias que si ❤️🫶🏻!'}</span>
           </div>
