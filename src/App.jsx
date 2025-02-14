@@ -90,7 +90,7 @@ function App() {
         !valueSi ? (
           <div className="p-5">
             <h1 className="text-black font-bold text-3xl md:text-3xl lg:text-3xl text-center leading-tight max-w-5xl mx-auto">
-      feliz dia de san valentin TIA QUERIDA
+      FELIZ DIA DE SAN VALENTIN TIA QUERIDA TE QUIERE TU SOBRINO
       </h1>
             <img src={Object.keys(randomValor).length === 0 ?
               "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif" : randomValor.img} alt="San Valentin" className="mx-auto" width={250} height={300} />
